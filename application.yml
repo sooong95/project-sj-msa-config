@@ -8,8 +8,6 @@ eureka:
 
 spring :
   cloud:
-    config:
-      uri: http://sj-config-server:8888
     bus:
       enabled: true
   rabbitmq:
