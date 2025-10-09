@@ -1,5 +1,6 @@
 spring :
   kafka:
+    bootstrap-servers: kafka:9092
     consumer:
       # group-id 는 컨슈머 그룹을 식별하는 id 로서, 동일한 그룹 id 를 가진 컨슈머들은 메시지를 분담해서 consume
       # 만약 여러 컨슈머가 다른 group-id 를 가지고 한 topic 을 리슨하면 각기 메시지를 수신하여 메시지 전파 효과 발생
