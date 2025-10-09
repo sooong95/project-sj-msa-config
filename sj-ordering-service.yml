@@ -8,8 +8,8 @@ spring :
       auto-offset-reset: earliest
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://host.docker.internal:3306/sj_ordering_service?useSSL=false&allowPublicKeyRetrieval=true
-    username: song
+    url: jdbc:mysql://sj-ordering-db:3306/sj_ordering_service?useSSL=false&allowPublicKeyRetrieval=true
+    username: sj
     password: '0000'
 
 
