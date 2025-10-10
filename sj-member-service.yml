@@ -1,8 +1,8 @@
 spring :
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://sj-member-db:3306/sj_member_service?useSSL=false&allowPublicKeyRetrieval=true
-    username: sj
+    url: jdbc:mysql://sj-member-db:3306/sj_member_db?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
     password: '0'
 jwt:
   expiration: 1000
