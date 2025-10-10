@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://sj-payment-db:3306/sj_payment_service?useSSL=false&allowPublicKeyRetrieval=true
-    username: sj
-    password: '0000'
+    url: jdbc:mysql://sj-payment-db:3306/sj_payment_db?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: '0'
