@@ -3,7 +3,7 @@ spring :
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://sj-member-db:3306/sj_member_service?useSSL=false&allowPublicKeyRetrieval=true
     username: sj
-    password: '0000'
+    password: '0'
 jwt:
   expiration: 1000
   #  \uC778\uCF54\uB529\uB41C \uBB38\uC790 32\uC790 \uC774\uC0C1 \uD544\uC694.(\uD2B9\uC218\uBB38\uC790\uC548\uB428)
