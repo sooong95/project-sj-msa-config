@@ -9,9 +9,9 @@ spring :
       auto-offset-reset: earliest
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://sj-ordering-db:3306/sj_ordering_db?useSSL=false&allowPublicKeyRetrieval=true
-    username: root
-    password: '0'
+    url: jdbc:mysql://sj-service-db.cbe4mg0g0beg.ap-northeast-2.rds.amazonaws.com:3306/sj_ordering_db?useSSL=false&allowPublicKeyRetrieval=true
+    username: admin
+    password: 'password'
 
 
 resilience4j:

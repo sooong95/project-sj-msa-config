@@ -54,3 +54,18 @@ management:
 
 file:
   dir: /Users/song/Desktop/study/SPRING-PROJECT/image-file/
+
+logging:
+  level:
+    org.springframework.cache: trace
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+  data:
+    redis:
+      host: sj-cache-server.wlcmxa.ng.0001.apn2.cache.amazonaws.com
+      port: 6379
