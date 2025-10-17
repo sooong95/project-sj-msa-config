@@ -26,7 +26,7 @@ spring :
       max-request-size: 10MB
   data:
     redis:
-      host: redis
+      host: sj-cache-server.wlcmxa.ng.0001.apn2.cache.amazonaws.com
       port: 6379
   jpa:
     database: mysql
@@ -58,14 +58,3 @@ file:
 logging:
   level:
     org.springframework.cache: trace
-
----
-
-spring:
-  config:
-    activate:
-      on-profile: prod
-  data:
-    redis:
-      host: sj-cache-server.wlcmxa.ng.0001.apn2.cache.amazonaws.com
-      port: 6379
