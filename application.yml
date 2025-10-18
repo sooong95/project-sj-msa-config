@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.31.42.13:8761/eureka/
+      defaultZone: http://172.31.37.155:8761/eureka/
 
 spring :
   cloud:
@@ -17,9 +17,9 @@ spring :
     password: guest
   kafka:
     kafka-server: kafka:9092
-  zipkin:
-    base-url: http://zipkin:9411
-    enabled: true
+#  zipkin:
+#    base-url: http://zipkin:9411
+#    enabled: true
   servlet:
     multipart:
       max-file-size: 5MB
@@ -48,9 +48,9 @@ management:
     propagation:
       consume: b3
       produce: b3_multi
-  zipkin:
-    tracing:
-      endpoint: "http://zipkin:9411/api/v2/spans"
+#  zipkin:
+#    tracing:
+#      endpoint: "http://zipkin:9411/api/v2/spans"
 
 file:
   dir: /Users/song/Desktop/study/SPRING-PROJECT/image-file/
