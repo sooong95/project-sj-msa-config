@@ -4,10 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.31.41.4:8761/eureka/
-  instance:
-    prefer-ip-address: true
-    ip-address: ${EUREKA_INSTANCE_IP_ADDRESS}  # 동적으로 주입받음
+      defaultZone: http://eureka:8761/eureka/
 
 spring :
   cloud:
