@@ -4,9 +4,9 @@
 spring :
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://sj-service-db.cbe4mg0g0beg.ap-northeast-2.rds.amazonaws.com:3306/sj_review_db?useSSL=false&allowPublicKeyRetrieval=true
-    username: admin
-    password: 'password'
+    url: jdbc:mysql://sj-review-db:3306/sj_review_db?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: '0'
   kafka:
     bootstrap-servers: kafka:9092
     consumer:
