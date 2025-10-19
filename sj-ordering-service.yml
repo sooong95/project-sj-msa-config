@@ -39,3 +39,5 @@ resilience4j:
         minimumNumberOfCalls: 4  # 최소 정상적인 요청을 4번 실행된 이후 Circuit Breaker 활성화
         ignoreExceptions:
           - java.lang.IllegalArgumentException  # IllegalArgumentException 무시
+
+#
