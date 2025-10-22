@@ -4,6 +4,6 @@
 spring :
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://sj-rds-2.cbe4mg0g0beg.ap-northeast-2.rds.amazonaws.com:3306/sj_item_db?useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://sj-rds.cbe4mg0g0beg.ap-northeast-2.rds.amazonaws.com:3306/sj_item_db?useSSL=false&allowPublicKeyRetrieval=true
     username: admin
     password: 'password'
