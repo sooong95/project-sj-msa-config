@@ -22,7 +22,8 @@ spring :
     username: guest
     password: guest
   kafka:
-    kafka-server: kafka:9092
+    #kafka-server: kafka:9092
+    kafka-server: ${SPRING_KAFKA_KAFKA_SERVER:kafka:9092}
 #  zipkin:
 #    base-url: http://zipkin:9411
 #    enabled: true
